@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E61AAE325C26AC635E84D81 /* libPods-rehab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B402B578BFEDFBC6877269A /* libPods-rehab.a */; };
+		A7D7D297063A3109DC6432D2 /* Pods_rehab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175BF6BACE786AC8FFA7CB43 /* Pods_rehab.framework */; };
 		E11497DF2058E11200D0CBF1 /* InfoAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11497DE2058E11200D0CBF1 /* InfoAccountViewController.swift */; };
+		E1429837205B2A3C00F226BA /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1429836205B2A3C00F226BA /* ConfigViewController.swift */; };
 		E1B0965F2059BFEB00F23202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B0965E2059BFEA00F23202 /* Assets.xcassets */; };
 		E1B096612059CB4800F23202 /* UserInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B096602059CB4800F23202 /* UserInitViewController.swift */; };
 		E1B096652059CD3F00F23202 /* AdminInitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B096642059CD3F00F23202 /* AdminInitTableViewController.swift */; };
 		E1B096672059DE5200F23202 /* EjerciciosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B096662059DE5200F23202 /* EjerciciosViewController.swift */; };
 		E1B096692059DE9A00F23202 /* IndicacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B096682059DE9A00F23202 /* IndicacionesViewController.swift */; };
+		E1CC0053207AEA57001B2096 /* CreateUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC0052207AEA57001B2096 /* CreateUserController.swift */; };
 		FBF9E49820573339009BAB15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9E49720573339009BAB15 /* AppDelegate.swift */; };
 		FBF9E49A20573339009BAB15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9E49920573339009BAB15 /* ViewController.swift */; };
 		FBF9E49D20573339009BAB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF9E49B20573339009BAB15 /* Main.storyboard */; };
@@ -22,15 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AA40D6C174C612198336667 /* Pods-rehab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rehab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rehab/Pods-rehab.debug.xcconfig"; sourceTree = "<group>"; };
-		5B402B578BFEDFBC6877269A /* libPods-rehab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rehab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8204C7E470BD2C38FF003884 /* Pods-rehab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rehab.release.xcconfig"; path = "Pods/Target Support Files/Pods-rehab/Pods-rehab.release.xcconfig"; sourceTree = "<group>"; };
+		175BF6BACE786AC8FFA7CB43 /* Pods_rehab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rehab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3020B5A879186AB19632B9 /* Pods-rehab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rehab.release.xcconfig"; path = "Pods/Target Support Files/Pods-rehab/Pods-rehab.release.xcconfig"; sourceTree = "<group>"; };
 		E11497DE2058E11200D0CBF1 /* InfoAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAccountViewController.swift; sourceTree = "<group>"; };
+		E1429836205B2A3C00F226BA /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		E1B0965E2059BFEA00F23202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1B096602059CB4800F23202 /* UserInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInitViewController.swift; sourceTree = "<group>"; };
 		E1B096642059CD3F00F23202 /* AdminInitTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminInitTableViewController.swift; sourceTree = "<group>"; };
 		E1B096662059DE5200F23202 /* EjerciciosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjerciciosViewController.swift; sourceTree = "<group>"; };
 		E1B096682059DE9A00F23202 /* IndicacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicacionesViewController.swift; sourceTree = "<group>"; };
+		E1CC0052207AEA57001B2096 /* CreateUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserController.swift; sourceTree = "<group>"; };
+		FBA6956C9722AE35575EE68A /* Pods-rehab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rehab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rehab/Pods-rehab.debug.xcconfig"; sourceTree = "<group>"; };
 		FBF9E49420573339009BAB15 /* rehab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rehab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF9E49720573339009BAB15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF9E49920573339009BAB15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,26 +49,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E61AAE325C26AC635E84D81 /* libPods-rehab.a in Frameworks */,
+				A7D7D297063A3109DC6432D2 /* Pods_rehab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B8671940F351B97CDB89FE3 /* Pods */ = {
+		92B618F497CD8AE540147253 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0AA40D6C174C612198336667 /* Pods-rehab.debug.xcconfig */,
-				8204C7E470BD2C38FF003884 /* Pods-rehab.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F39962E162E35463F34AC3EB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5B402B578BFEDFBC6877269A /* libPods-rehab.a */,
+				175BF6BACE786AC8FFA7CB43 /* Pods_rehab.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,8 +69,8 @@
 			children = (
 				FBF9E49620573339009BAB15 /* rehab */,
 				FBF9E49520573339009BAB15 /* Products */,
-				6B8671940F351B97CDB89FE3 /* Pods */,
-				F39962E162E35463F34AC3EB /* Frameworks */,
+				FE80F7CDC31FA4F4D0B024A6 /* Pods */,
+				92B618F497CD8AE540147253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +90,7 @@
 				FBF9E49720573339009BAB15 /* AppDelegate.swift */,
 				FBF9E49920573339009BAB15 /* ViewController.swift */,
 				FBF9E49B20573339009BAB15 /* Main.storyboard */,
+				E1429836205B2A3C00F226BA /* ConfigViewController.swift */,
 				E1B096682059DE9A00F23202 /* IndicacionesViewController.swift */,
 				E1B096662059DE5200F23202 /* EjerciciosViewController.swift */,
 				E1B096602059CB4800F23202 /* UserInitViewController.swift */,
@@ -102,8 +98,18 @@
 				FBF9E4A020573339009BAB15 /* LaunchScreen.storyboard */,
 				FBF9E4A320573339009BAB15 /* Info.plist */,
 				E11497DE2058E11200D0CBF1 /* InfoAccountViewController.swift */,
+				E1CC0052207AEA57001B2096 /* CreateUserController.swift */,
 			);
 			path = rehab;
+			sourceTree = "<group>";
+		};
+		FE80F7CDC31FA4F4D0B024A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBA6956C9722AE35575EE68A /* Pods-rehab.debug.xcconfig */,
+				9B3020B5A879186AB19632B9 /* Pods-rehab.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,12 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBF9E4A620573339009BAB15 /* Build configuration list for PBXNativeTarget "rehab" */;
 			buildPhases = (
-				B6EB044B018F5A2BD5872296 /* [CP] Check Pods Manifest.lock */,
+				3FA9596581145037E4EC350C /* [CP] Check Pods Manifest.lock */,
 				FBF9E49020573339009BAB15 /* Sources */,
 				FBF9E49120573339009BAB15 /* Frameworks */,
 				FBF9E49220573339009BAB15 /* Resources */,
-				2F1612A2C29EEF18D8573F52 /* [CP] Embed Pods Frameworks */,
-				DB1326D240AC91E73AFC4737 /* [CP] Copy Pods Resources */,
+				F80CA9104144C337F1AE6BF7 /* [CP] Embed Pods Frameworks */,
+				3BF2D990D0B3C197543DD1B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,22 +184,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F1612A2C29EEF18D8573F52 /* [CP] Embed Pods Frameworks */ = {
+		3BF2D990D0B3C197543DD1B1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rehab/Pods-rehab-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rehab/Pods-rehab-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B6EB044B018F5A2BD5872296 /* [CP] Check Pods Manifest.lock */ = {
+		3FA9596581145037E4EC350C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,19 +217,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB1326D240AC91E73AFC4737 /* [CP] Copy Pods Resources */ = {
+		F80CA9104144C337F1AE6BF7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rehab/Pods-rehab-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rehab/Pods-rehab-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rehab/Pods-rehab-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -235,11 +250,13 @@
 			files = (
 				E1B096652059CD3F00F23202 /* AdminInitTableViewController.swift in Sources */,
 				FBF9E49A20573339009BAB15 /* ViewController.swift in Sources */,
+				E1429837205B2A3C00F226BA /* ConfigViewController.swift in Sources */,
 				E1B096672059DE5200F23202 /* EjerciciosViewController.swift in Sources */,
 				E1B096612059CB4800F23202 /* UserInitViewController.swift in Sources */,
 				E1B096692059DE9A00F23202 /* IndicacionesViewController.swift in Sources */,
 				E11497DF2058E11200D0CBF1 /* InfoAccountViewController.swift in Sources */,
 				FBF9E49820573339009BAB15 /* AppDelegate.swift in Sources */,
+				E1CC0053207AEA57001B2096 /* CreateUserController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,10 +391,11 @@
 		};
 		FBF9E4A720573339009BAB15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AA40D6C174C612198336667 /* Pods-rehab.debug.xcconfig */;
+			baseConfigurationReference = FBA6956C9722AE35575EE68A /* Pods-rehab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83Q2F9X478;
 				INFOPLIST_FILE = rehab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.rehab;
@@ -389,10 +407,11 @@
 		};
 		FBF9E4A820573339009BAB15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8204C7E470BD2C38FF003884 /* Pods-rehab.release.xcconfig */;
+			baseConfigurationReference = 9B3020B5A879186AB19632B9 /* Pods-rehab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83Q2F9X478;
 				INFOPLIST_FILE = rehab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.rehab;

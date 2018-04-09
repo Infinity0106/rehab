@@ -33,13 +33,29 @@ class ViewController: UIViewController {
         })
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        Database.database().reference().child("usuarios").observeSingleEvent(of: .value, with: {(snap) in
+            let value = snap.value as! [String: AnyObject]
+            for (key,_) in value {
+                let data = value[key] as! NSObject
+                data.setValue(key, forKey: "uuid")
+                self.users.append(data)
+            }
+        }, withCancel: {(error) in
+            print(error)
+        })
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func hideKeyboard(_ sender: Any) {
+        view.endEditing(true)
+    }
+    
     @IBAction func logIn(_ sender: UIButton) {
+        view.endEditing(true)
         if(tfMail.text != ""){
             Auth.auth().signIn(withEmail: tfMail.text!, password: tfPass.text!) { (user, error) in
                 if(error==nil){
@@ -49,6 +65,8 @@ class ViewController: UIViewController {
                         }else{
                             self.navigationController!.pushViewController(self.storyboard!.instantiateViewController(withIdentifier: "userInit"), animated: true)
                         }
+                        self.tfPass.text=""
+                        self.tfMail.text=""
                     }else{
                         self.presentError(msg: "Email without permission")
                     }
@@ -61,6 +79,7 @@ class ViewController: UIViewController {
         }
     }
     func aviable(uid: String) -> Bool{
+        print(uid);
         for ele in users{
             if(ele.value(forKey: "uuid") as! String == uid && ele.value(forKey: "active") as! Bool == true) {
                 return true;
